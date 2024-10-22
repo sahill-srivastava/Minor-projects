@@ -2,9 +2,6 @@ let qrinput = document.querySelector(".qrinp");
 let qrimg = document.querySelector(".qrimg");
 let qrbtn = document.querySelector("button");
 
-// https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=
-
-
 function generateQR() {
 
     if (qrinput.value.length > 0) {
